@@ -178,24 +178,24 @@ statusMessage.textContent = "Oops! Something went wrong.";
 });
 
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const preloader = document.getElementById("preloader");
+document.addEventListener("DOMContentLoaded", function () {
+  const preloader = document.getElementById("preloader");
 
-//   if (sessionStorage.getItem("preloaderShown")) {
-//     preloader.style.display = "none";
-//     return;
-//   }
+  if (sessionStorage.getItem("preloaderShown")) {
+    preloader.style.display = "none";
+    return;
+  }
 
-//   const DURATION = 10000;
+  const DURATION = 10000;
 
-//   setTimeout(() => {
-//     preloader.classList.add("fade-out");
-//     setTimeout(() => {
-//       preloader.style.display = "none";
-//       sessionStorage.setItem("preloaderShown", "true");
-//     }, 800);
-//   }, DURATION);
-// });
+  setTimeout(() => {
+    preloader.classList.add("fade-out");
+    setTimeout(() => {
+      preloader.style.display = "none";
+      sessionStorage.setItem("preloaderShown", "true");
+    }, 800);
+  }, DURATION);
+});
 
 
 

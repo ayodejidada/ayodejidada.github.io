@@ -99,10 +99,12 @@ box-shadow: none;
 background: #2e3136;
 padding: 10px 0;
 }
+@media (hover: hover){
 .dropdown:hover .dropdown-menu{
 display: block;
 opacity:1;
 transform: translateY(0);
+}
 }
 .dropdown-menu:hover{
 background:#1e1e1f;
