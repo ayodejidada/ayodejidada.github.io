@@ -98,6 +98,7 @@ transform: none;
 box-shadow: none;
 background: #2e3136;
 padding: 10px 0;
+opacity: 1;
 }
 @media (hover: hover){
 .dropdown:hover .dropdown-menu{
@@ -1315,15 +1316,6 @@ color: #ccc;
 .dropdown:hover .dropdown-menu{
 display: none;
 opacity: 0;
-}
-.dropdown.show .dropdown-menu{
-display: block;
-position: static;
-transform: none;
-box-shadow: none;
-background: #2e3136;
-padding: 10px 0;
-opacity: 1;
 }
 
 .hero {
