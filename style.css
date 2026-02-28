@@ -209,6 +209,9 @@ font-weight: 700;
 max-width: 500px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.hero-text h1 .break {
+  display: inline;
+}
 .hero-buttons{
 margin: 20px 0 0;
 display: flex;
@@ -1335,7 +1338,9 @@ align-items: center;
     font-size: 2.5rem;
     line-height: 3.25rem;
 }
-
+  .hero-text h1 .break {
+    display: block;
+  }
 .hero-image img {
 width: 250px;
 height: 250px;
