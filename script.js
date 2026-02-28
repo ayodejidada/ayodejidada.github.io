@@ -186,14 +186,14 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  const DURATION = 9000;
+  const DURATION = 10000;
 
   setTimeout(() => {
     preloader.classList.add("fade-out");
     setTimeout(() => {
       preloader.style.display = "none";
       sessionStorage.setItem("preloaderShown", "true");
-    }, 600);
+    }, 800);
   }, DURATION);
 });
 
